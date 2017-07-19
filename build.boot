@@ -30,7 +30,7 @@
        :version (get-env :version)
        :description "Just enough rope to wrangle a jdbc"
        :url "https://github.com/irresponsible/utrecht"
-       :scm {:url "https://github.com/irresponsible/utrecht.git"}
+       :scm {:url "https://github.com/irresponsible/utrecht"}
        :license {"MIT" "https://en.wikipedia.org/MIT_License"}}
   push {:tag true
         :ensure-branch "master"
