@@ -11,7 +11,7 @@
   :version "0.3.1"
   :resource-paths #{"src" "resources"}
   :source-paths #{"src"}
-  :dependencies #(into % '[[org.clojure/java.jdbc     "0.7.0-beta2"]
+  :dependencies #(into % '[[org.clojure/java.jdbc     "0.7.0-beta5"]
                   [hikari-cp                 "1.7.6"]
                   ;; don't force the user to pull in any of these
                   [com.stuartsierra/component "0.3.2"   :scope "test"]
